@@ -1,0 +1,97 @@
+body {
+  width: 100%;
+  margin: 0;
+  color: white;
+  font-family: 'Lato', 'Trebuchet MS', 'Helvetica', sans-serif;
+  font-weight: 300;
+  background: #6aa7ec;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+#particles-js {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.title, #name {
+  font-size: 300%;
+  margin: auto;
+}
+
+#subtitle {
+  width: 300px;
+  font-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#social {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+#social li {
+  font-size: 300%;
+  display: inline-block;
+  padding: 5px;
+}
+
+#social li, #social:hover li, #name, #name:hover, #social .fa, #social .fa:hover {
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+#social .fa:hover {
+  color: #2173d0;
+}
+
+.scroll-arrow {
+  position: absolute;
+  width: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -40px;
+  font-family: 'Menlo';
+  cursor: pointer;
+}
+
+.scroll-arrow img {
+  width: 100%;
+}
+
